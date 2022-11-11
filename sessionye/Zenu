@@ -1,0 +1,53 @@
+11-11 16:15:54.114  4166  3588 E MediaProvider: insertFileIfNecessary failed
+11-11 16:15:54.114  4166  3588 E MediaProvider: java.lang.IllegalArgumentException: Primary directory null not allowed for content://media/external_primary/file; allowed directories are [Download, Documents]
+11-11 16:15:54.114  4166  3588 E MediaProvider: 	at com.android.providers.media.MediaProvider.ensureFileColumns(MediaProvider.java:2847)
+11-11 16:15:54.114  4166  3588 E MediaProvider: 	at com.android.providers.media.MediaProvider.ensureUniqueFileColumns(MediaProvider.java:2512)
+11-11 16:15:54.114  4166  3588 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFile(MediaProvider.java:3206)
+11-11 16:15:54.114  4166  3588 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertInternal(MediaProvider.java:3739)
+11-11 16:15:54.114  4166  3588 E MediaProvider: 	at com.android.providers.media.MediaProvider.insert(MediaProvider.java:3461)
+11-11 16:15:54.114  4166  3588 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFileForFuse(MediaProvider.java:7052)
+11-11 16:15:54.114  4166  3588 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFileIfNecessaryForFuse(MediaProvider.java:7146)
+11-11 16:15:54.216  4166 28129 E MediaProvider: insertFileIfNecessary failed
+11-11 16:15:54.216  4166 28129 E MediaProvider: java.lang.IllegalArgumentException: Primary directory null not allowed for content://media/88cc-f6c0/file; allowed directories are [Download, Documents]
+11-11 16:15:54.216  4166 28129 E MediaProvider: 	at com.android.providers.media.MediaProvider.ensureFileColumns(MediaProvider.java:2847)
+11-11 16:15:54.216  4166 28129 E MediaProvider: 	at com.android.providers.media.MediaProvider.ensureUniqueFileColumns(MediaProvider.java:2512)
+11-11 16:15:54.216  4166 28129 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFile(MediaProvider.java:3206)
+11-11 16:15:54.216  4166 28129 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertInternal(MediaProvider.java:3739)
+11-11 16:15:54.216  4166 28129 E MediaProvider: 	at com.android.providers.media.MediaProvider.insert(MediaProvider.java:3461)
+11-11 16:15:54.216  4166 28129 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFileForFuse(MediaProvider.java:7052)
+11-11 16:15:54.216  4166 28129 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFileIfNecessaryForFuse(MediaProvider.java:7146)
+11-11 16:15:55.211  4166 21242 E MediaProvider: insertFileIfNecessary failed
+11-11 16:15:55.211  4166 21242 E MediaProvider: java.lang.IllegalArgumentException: Primary directory null not allowed for content://media/external_primary/file; allowed directories are [Download, Documents]
+11-11 16:15:55.211  4166 21242 E MediaProvider: 	at com.android.providers.media.MediaProvider.ensureFileColumns(MediaProvider.java:2847)
+11-11 16:15:55.211  4166 21242 E MediaProvider: 	at com.android.providers.media.MediaProvider.ensureUniqueFileColumns(MediaProvider.java:2512)
+11-11 16:15:55.211  4166 21242 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFile(MediaProvider.java:3206)
+11-11 16:15:55.211  4166 21242 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertInternal(MediaProvider.java:3739)
+11-11 16:15:55.211  4166 21242 E MediaProvider: 	at com.android.providers.media.MediaProvider.insert(MediaProvider.java:3461)
+11-11 16:15:55.211  4166 21242 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFileForFuse(MediaProvider.java:7052)
+11-11 16:15:55.211  4166 21242 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFileIfNecessaryForFuse(MediaProvider.java:7146)
+11-11 16:15:55.253  4166  9743 E MediaProvider: insertFileIfNecessary failed
+11-11 16:15:55.253  4166  9743 E MediaProvider: java.lang.IllegalArgumentException: Primary directory null not allowed for content://media/88cc-f6c0/file; allowed directories are [Download, Documents]
+11-11 16:15:55.253  4166  9743 E MediaProvider: 	at com.android.providers.media.MediaProvider.ensureFileColumns(MediaProvider.java:2847)
+11-11 16:15:55.253  4166  9743 E MediaProvider: 	at com.android.providers.media.MediaProvider.ensureUniqueFileColumns(MediaProvider.java:2512)
+11-11 16:15:55.253  4166  9743 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFile(MediaProvider.java:3206)
+11-11 16:15:55.253  4166  9743 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertInternal(MediaProvider.java:3739)
+11-11 16:15:55.253  4166  9743 E MediaProvider: 	at com.android.providers.media.MediaProvider.insert(MediaProvider.java:3461)
+11-11 16:15:55.253  4166  9743 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFileForFuse(MediaProvider.java:7052)
+11-11 16:15:55.253  4166  9743 E MediaProvider: 	at com.android.providers.media.MediaProvider.insertFileIfNecessaryForFuse(MediaProvider.java:7146)
+11-11 16:16:47.609  4166 26737 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:16:47.618  4166 26723 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:16:47.698  4166 26714 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:16:47.714  4166 26731 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:16:47.767  4166 26736 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:16:47.777  4166 26739 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:16:47.788  4166 26738 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:16:51.851  4166 26741 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:16:51.877  4166 26736 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:17:18.078  4166 26737 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:17:18.083  4166 26739 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:17:18.103  4166 26738 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:17:18.108  4166 26714 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:17:47.612  4166 26731 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:17:47.618  4166 26741 E MediaProvider: Creating a non-default top level directory or deleting an existing one is not allowed!
+11-11 16:59:19.345  4166  6409 I MediaProvider: Deleted 1 items on external_primary due to com.termux
+11-11 16:59:19.398  4166  6529 W CursorWindow: Window is full: requested allocation 588 bytes, free space 80 bytes, window size 2097152 bytes
